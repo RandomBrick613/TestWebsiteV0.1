@@ -1,0 +1,103 @@
+body {
+    background-image: url('img/stars.gif');
+    font-family: verdana;
+}
+
+
+header {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    height: fit-content;
+    text-align: center;
+    border: 5px solid #333;
+    line-height: 18px;
+    font-family: tahoma;
+}
+
+
+/* Navbar CSS begins here... */
+
+    nav {
+        background-color: white;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 10px;
+        height: fit-content;
+        text-align: center;
+        border: 5px solid #333;
+        line-height: 18px;
+    }
+
+
+    #nav-ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        text-align: center;
+    }
+    
+
+    .nav-li {
+        display: inline;
+    }
+    
+
+    .nav-li a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        width: 100px;
+    }
+    
+
+    .nav-li a:hover {
+        background-color: #bbb;
+    }
+
+
+/* ... and ends here */
+
+
+a {
+    text-decoration: none;
+}
+
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    height: fit-content;
+    border: 5px solid #333;
+    line-height: 18px;
+}
+
+
+.content {
+    padding:10px 50px;
+}
+
+
+.gallery{
+    background: url("img/ghibli.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.gallery img {
+    transition:transform 0.25s ease;
+}
+
+.gallery img:hover {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+main a {
+    color: blue;
+}
