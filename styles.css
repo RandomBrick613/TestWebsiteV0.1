@@ -1,6 +1,9 @@
+@font-face { font-family: DM-Regular; src: url('font/DM_Sans/DMSans-Regular.ttf'); }
+@font-face { font-family: DM-Medium; src: url('font/DM_Sans/DMSans-Medium.ttf'); }
+@font-face { font-family: Poppins; src: url('font/Poppins/Poppins-Regular.ttf'); } 
+
 body {
     background-image: url('img/stars.gif');
-    font-family: verdana;
 }
 
 
@@ -27,6 +30,8 @@ header {
         text-align: center;
         border: 5px solid #333;
         line-height: 18px;
+        font-family: Calibri;
+        font-size: 120%;
     }
 
 
@@ -51,7 +56,7 @@ header {
         text-align: center;
         padding: 10px;
         text-decoration: none;
-        width: 100px;
+        width: 120px;
     }
     
 
@@ -76,56 +81,66 @@ main {
     height: fit-content;
     border: 5px solid #333;
     line-height: 18px;
+    font-family: Calibri;
+    font-size: 20px;
+    line-height: 130%;
 }
-
 
 .content {
     padding:10px 50px;
 }
 
-
-.gallery{
-    background: url("img/ghibli.jpg") no-repeat center center fixed;
-    background-size: cover;
-}
-
-.gallery img {
-    transition:transform 0.25s ease;
-}
-
-.gallery img:hover {
-    -webkit-transform:scale(1.02);
-    transform:scale(1.02);
-}
-
-main a {
-    color: blue;
+.paragraph {
+    text-indent: 50px;
 }
 
 
+/* Gallery and photography CSS starts here... */
 
-.album {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
+    .gallery{
+        background: url("img/ghibli.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
 
-.album-column {
-    box-sizing: border-box;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
+    .gallery img {
+        transition:transform 0.25s ease;
+    }
 
-.album-column-3 {
-    box-sizing: border-box;
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 4px;
-}
+    .gallery img:hover {
+        -webkit-transform:scale(1.02);
+        transform:scale(1.02);
+    }
 
-.album-column img, .album-column-3 img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
+    main a {
+        color: blue;
+    }
+
+
+
+    .album {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .album-column {
+        box-sizing: border-box;
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .album-column-3 {
+        box-sizing: border-box;
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 4px;
+    }
+
+    .album-column img, .album-column-3 img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+/* ... and ends here */
