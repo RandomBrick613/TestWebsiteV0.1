@@ -210,21 +210,6 @@ main {
 
 
 
-@media (min-width:801px) and (max-width: 1200px){
-  .header-title{
-    display: none;
-  }
-}
-
-
-@media(max-width: 800px){
-  .hideOnMobile{
-    display: none;
-  }
-  .menu-button{
-    display: block;
-  }
-}
 
 
 /* ---------- ... and ends here ---------- */
