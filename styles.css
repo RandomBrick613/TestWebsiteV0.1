@@ -209,14 +209,14 @@ main {
 /* ---------- Media queries start here... ---------- */
 
 
-@media (min-width:801px) and (max-width: 1200px){
+@media  only screen and (min-width:801px) and (max-width: 1200px){
   .header-title{
     display: none;
   }
 }
 
 
-@media (max-width: 800px){
+@media  only screen and (max-width: 800px){
   .hideOnMobile{
     display: none;
   }
