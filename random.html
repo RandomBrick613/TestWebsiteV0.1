@@ -12,4 +12,83 @@ DROPDOWN MENU TEMPLATE
       <a href="#">Link 3</a>
 </div>
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Brick">
+        <meta name="description" content="Brick's Website">
+        <link rel="icon" href="img/brick.png">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brick's Website</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-content">
+                <div class="header-image">
+                    <a href="index.html"><img src="img/brick.png" alt="brick" style="width: 50px"></a>
+                </div>
+                <div class="header-title">
+                    <h1 style="margin: auto">Brick's Writing Dump</h1>
+                </div>
+
+                <div class="header-nav">
+                    <nav>
+                        <ul class="sidebar">
+                            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="music.html">Music</a></li>
+                            <li><a href="photography.html">Photography</a></li>
+                            <li><a href="other.html">Other</a></li>
+                        </ul>
+                        <ul>
+                            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                            <li class="hideOnMobile"><a href="about.html">About</a></li>
+                            <li class="hideOnMobile"><a href="blog.html">Blog</a></li>
+                            <li class="hideOnMobile"><a href="music.html">Music</a></li>
+                            <li class="hideOnMobile"><a href="photography.html">Photography</a></li>
+                            <li class="hideOnMobile"><a href="other.html">Other</a></li>
+                            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header> 
+
+
+        <main>
+            <div class="content">
+                    
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, ut. Nostrum alias quia facere quos temporibus commodi expedita accusamus quibusdam, praesentium quo voluptas. Ipsa, recusandae totam ad ducimus a, vitae amet earum aut nam doloremque harum facere voluptatem dolores, corrupti velit tempore alias officiis? Libero, hic quas, ab at expedita aliquid natus adipisci quam ipsum culpa dignissimos iure consequatur nam! Et recusandae quaerat eum officia aperiam repellat porro. Molestiae, perspiciatis? Tempora adipisci est deleniti! Quisquam mollitia laudantium cumque ullam impedit iste nihil maxime inventore sequi, a earum magnam magni. Nam harum placeat quo quas dicta itaque deserunt enim adipisci officiis!</p>
+                <hr>
+
+            </div>
+        </main>
+
+        <footer style="position: fixed">
+	        <p>Copyright © 2025 - Brick</p>
+        </footer>
+
+        <script>
+            function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+            }
+        </script>   
+    </body>
+</html>
+
+
+
 -->
