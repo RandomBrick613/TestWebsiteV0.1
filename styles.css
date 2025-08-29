@@ -91,14 +91,16 @@ a {
 }
 
 
-main {
+.content {
+  padding: 10px 50px;
   background-color: white;
   max-width: 1000px;
   margin: auto;
   margin-top: 10px;
   padding: 10px 50px;
   height: fit-content;
-  border: 5px solid #333;
+  border: 5px solid black;
+  border-top: none;
   line-height: 16px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
