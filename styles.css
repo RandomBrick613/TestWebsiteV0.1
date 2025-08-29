@@ -33,6 +33,7 @@ header {
   padding: 13px 20px 0 20px;
 }
 
+
 .header-title {
   float: left;
   padding: 28px 50px 0 10px;
@@ -82,11 +83,6 @@ nav li a:hover {
 }
 
 
-nav li:first-child{
-  margin-right: auto;
-}
-
-
 .content {
   padding: 10px 50px 25px 50px;
   margin: auto;
@@ -100,7 +96,7 @@ nav li:first-child{
   border-radius: 25px;
   line-height: 140%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -108,6 +104,7 @@ a {
   text-decoration: none;
   color: #0000EE;
 }
+
 
 a:hover {
   text-decoration: none;
@@ -146,7 +143,6 @@ ul {
 }
 
 
-
 .round-box {
   background-color: rgba(255, 255, 255, 0.5);
   margin: 8px;
@@ -154,7 +150,8 @@ ul {
   padding-right: 30px;
   border: 2px dashed black;
   border-radius: 10px;
-  width:fit-content;
+  width: fit-content;
+  height: fit-content;
 }
 
 
@@ -164,6 +161,26 @@ figcaption {
   font-size: 14px;
   text-align: center;
   line-height: 18px;
+}
+
+
+button {
+  padding: 8px;
+}
+
+
+button:hover {
+  background-color: gray;
+}
+
+
+button a {
+  color: black;
+}
+
+
+button a:hover {
+  color: black;
 }
 
 
@@ -178,6 +195,7 @@ figcaption {
   color: #2c2c2c;
 }
 
+
 #date-nav h5 {
   color: #5f5f5f;
   margin: 15px 0 15px 0;
@@ -189,180 +207,72 @@ figcaption {
 
 
 
-/* ---------- Sidebar CSS starts here... ---------- */
-
-
-.sidebar{
-  position: fixed;
-  top: 0; 
-  right: 0;
-  height: 100vh;
-  width: 150px;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(12px);
-  list-style: none;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-
-.sidebar li{
-  width: 100%;
-}
-
-
-.sidebar li:first-child{
-  background-color: rgba(255, 255, 255, 0.468);
-}
-
-
-.sidebar a{
-  width: 100%;
-}
-
-
-.menu-button{
-  display: none;
-  margin-top: -5px;
-  
-}
-
-.menu-button a:hover{
-  background-color: black;
-}
-
-
-
-/* ---------- ... and ends here ---------- */
-
-
-
-/* ---------- Media queries start here... ---------- */
-
-
-@media  only screen and (max-width: 1200px){
-  .hideOnMobile{
-    display: none;
-  }
-  .menu-button{
-    display: block;
-  }
-}
-
-
-/* ---------- ... and ends here ---------- */
-
-
-
-/* ---------- Dropdown CSS starts here... ---------- */
-
-
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-
-.dropdown .dropbtn {
-    font-family: Calibri;
-    font-size: 20px;
-    padding: 6px 20px 6px 20px;
-    border: none;
-    outline: none;
-    color: white;
-    background-color: inherit;
-    margin: 0;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #222222;
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-
-/* ---------- ... and ends here ---------- */
-
-
-
 /* ---------- Gallery and photography CSS starts here... ---------- */
 
-    .gallery{
-        background: url("img/ghibli.jpg") no-repeat center center fixed;
-        background-size: cover;
-    }
+.gallery{
+    background: url("img/ghibli.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
 
-    .gallery img {
-        transition:transform 0.25s ease;
-    }
+.gallery img {
+    transition:transform 0.25s ease;
+}
 
-    .gallery img:hover {
-        -webkit-transform:scale(1.02);
-        transform:scale(1.02);
-    }
-
-    main a {
-        color: blue;
-    }
+.gallery img:hover {
+    -webkit-transform:scale(1.02);
+    transform:scale(1.02);
+}
 
 
 
-    .album {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
 
-    .album-column {
-        box-sizing: border-box;
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-    }
+.album-column {
+    box-sizing: border-box;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
 
-    .album-column-3 {
-        box-sizing: border-box;
-        flex: 33%;
-        max-width: 33%;
-        padding: 0 4px;
-    }
+.album-column-3 {
+    box-sizing: border-box;
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
 
-    .album-column img, .album-column-3 img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-    }
+.album-column img, .album-column-3 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
 
 /* ---------- ... and ends here ---------- */
+
+
+/* NEW ALBUM STUFF, MADE FOR LEGO */
+
+.album a {
+  margin: auto;
+}
+
+
+.album img {
+  width: 500px;
+  margin-top: 10px;
+}
+
+
+.album img {
+      transition:transform 0.25s ease;
+  }
+
+
+.album img:hover {
+  -webkit-transform:scale(1.02);
+  transform:scale(1.02);
+}
