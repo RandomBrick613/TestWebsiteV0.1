@@ -1,4 +1,11 @@
-/* ---------- New look CSS starts here... ---------- */
+@font-face {
+    font-family: "dosis";
+    src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+
+
+
+/* ----- Main elements ----- */
 
 
 html {
@@ -20,12 +27,31 @@ header {
   height: fit-content;
   display: flex;
   margin: 0;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
   text-align: center;
   font-family: tahoma;
   line-height: 18px;
   border-bottom: 5px solid #000000;
 }
+
+
+footer{
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  margin-top: 10px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  line-height: 18px;
+  color: white;
+  border-bottom: 5px solid #000000;
+  font-family: tahoma;
+  font-size: 14px;
+}
+
+
+
+/* ----- Header and navigation ----- */
 
 
 .header-content {
@@ -78,10 +104,10 @@ nav li a {
   display: flex;
   color: white;
   align-items: center;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 20px 5px 20px;
   margin: auto;
 }
-    
+
 
 nav li a:hover {
   background-color: #222222;
@@ -89,37 +115,22 @@ nav li a:hover {
 }
 
 
+
+/* ----- Main content ----- */
+
+
 .content {
-  padding: 10px 50px 25px 50px;
+  padding-bottom: 20px;
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
   max-width: 950px;
   height: fit-content;
-  background-color: white;
-  background-image: url('img/paper.jpg');
+  background-color: #EAEFEF;
   border: 5px solid black;
-  border-radius: 25px;
+  border-radius: 15px;
   line-height: 140%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-}
-
-
-a {
-  text-decoration: none;
-  color: #0000EE;
-}
-
-
-a:hover {
-  text-decoration: none;
-  color: #000062;
-}
-
-
-ul {
-  line-height: 200%;
 }
 
 
@@ -136,37 +147,89 @@ ul {
 }
 
 
-.center-title {
-  width: 800px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
-  border: 3px solid black;
-  border-radius: 25px;
-}
-
-
-.round-box {
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: 8px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: 2px dashed black;
-  border-radius: 10px;
-  width: fit-content;
-  height: fit-content;
-}
-
-
 figcaption {
   color: rgb(74, 74, 74);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 14px;
   text-align: center;
   line-height: 16px;
+}
+
+
+
+/* ----- Main content - titles ----- */
+
+
+.center-title {
+  width: 875px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: #7F8CAA;
+  border: 3px solid #7F8CAA;
+  border-radius: 8px;
+  box-shadow: 5px 5px 0 #333446;
+}
+
+
+h2{
+  margin-top: 20px;
+  font-family: dosis;  
+}
+
+
+h3{
+  margin-top: 20px;
+  font-family: dosis;  
+}
+
+
+
+/* ----- Main content - boxes ----- */
+
+
+.text-box {
+  margin-bottom: 50px;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.round-box {
+  margin: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.padded-box{
+  margin: 10px;
+  padding: 5px 50px 5px 50px;
+}
+
+
+ul {
+  line-height: 200%;
+}
+
+
+
+/* ----- Links and buttons ----- */
+
+
+a {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: #000062;
 }
 
 
@@ -190,6 +253,10 @@ button a:hover {
 }
 
 
+
+/* ----- Specifics - date navigation ----- */
+
+
 #date-nav {
   padding: 0 0 20px 20px;
   margin: -5px 0 -50px -40px;
@@ -207,7 +274,21 @@ button a:hover {
   margin: 15px 0 15px 0;
 }
 
-/* ---------- ... and ends here ---------- */
+
+
+/* Socials button (about page) */
+
+#socials{
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px 30px 3px 30px;
+  background-color: #B8CFCE;
+  border-radius: 15px;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 5px 5px 0 #333446;
+}
 
 
 
