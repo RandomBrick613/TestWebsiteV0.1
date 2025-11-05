@@ -2,7 +2,7 @@
 
 
 html {
-    width: 100vw;
+    overflow-y: scroll;
 }
 
 
@@ -264,17 +264,14 @@ button a:hover {
   margin: auto;
 }
 
-
 .album img {
   width: 500px;
   margin-top: 10px;
 }
 
-
 .album img {
-      transition:transform 0.25s ease;
-  }
-
+  transition:transform 0.25s ease;
+}
 
 .album img:hover {
   -webkit-transform:scale(1.02);
