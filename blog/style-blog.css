@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "dosis";
+    src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+
+
+@font-face {
+    font-family: "firacode";
+    src: url(../fonts/FiraCode-VariableFont_wght.ttf);
+}
+
+
+
+/* ----- Main elements ----- */
+
+
+html {
+    overflow-y: scroll;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 90vh;
+  background-color: #EAEFEF;
+} 
+
+
+header {
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  font-family: tahoma;
+  line-height: 18px;
+  border-bottom: 5px solid #000000;
+}
+
+
+footer {
+  background-color: #EAEFEF;
+  width: 100%;
+  height: fit-content;
+  margin-top: 10px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  line-height: 18px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+
+
+/* ----- Header and navigation ----- */
+
+
+.header-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.header-image {
+  float: left;
+  padding: 13px 20px 0 20px;
+}
+
+
+.header-title {
+  float: left;
+  padding: 28px 50px 0 10px;
+  color: white;
+}
+
+
+.header-nav {
+  float: left;
+}
+
+
+
+/* ----- Main content ----- */
+
+
+.content {
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 750px;
+  height: fit-content;
+  background-color: #EAEFEF;
+  line-height: 140%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+
+.paragraph {
+  text-indent: 50px;
+}
+
+
+.thick-hr {
+  background-color: black;
+  border: 0 none;
+  color: black;
+  height: 1px;
+}
+
+
+figcaption {
+  color: rgb(74, 74, 74);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+}
+
+
+
+/* ----- Main content - titles ----- */
+
+
+.center-title {
+  width: 875px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: #7F8CAA;
+  border: 3px solid #7F8CAA;
+  border-radius: 8px;
+  box-shadow: 5px 5px 0 #333446;
+}
+
+
+h1{
+  font-family: firacode;
+  margin-top: 50px;
+}
+
+
+h3{
+  font-family: firacode;
+  margin-top: 20px;
+}
+
+
+h5{
+  font-family: firacode;
+  margin-top: 20px;
+  color: #7F8CAA;
+}
+
+
+h3 a {
+  text-decoration: underline;
+}
+
+
+h3 a:hover{
+    text-decoration: underline;
+}
+
+
+/* ----- Main content - boxes ----- */
+
+
+.blog-post {
+    margin: 50px 0 10px 0;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 3px 3px black;
+    padding: 0 30px 20px 30px;
+    
+}
+
+
+ul {
+  line-height: 200%;
+}
+
+
+
+/* ----- Links and buttons ----- */
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: #7F8CAA;
+}
