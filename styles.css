@@ -55,6 +55,16 @@ footer {
 }
 
 
+.fixed-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+
 
 /* ----- Header and navigation ----- */
 
@@ -297,62 +307,16 @@ button a:hover {
 
 
 
-/* ---------- Gallery and photography CSS starts here... ---------- */
-
-.gallery{
-    background: url("img/ghibli.jpg") no-repeat center center fixed;
-    background-size: cover;
-}
-
-.gallery img {
-    transition:transform 0.25s ease;
-}
-
-.gallery img:hover {
-    -webkit-transform:scale(1.02);
-    transform:scale(1.02);
-}
-
-
+/* ----- EVERYTHING RELATED TO PHOTO ALBUMS ----- */
 
 .album {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
-
-.album-column {
-    box-sizing: border-box;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.album-column-3 {
-    box-sizing: border-box;
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 4px;
-}
-
-.album-column img, .album-column-3 img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-/* ---------- ... and ends here ---------- */
-
-
-/* NEW ALBUM STUFF, MADE FOR LEGO */
 
 .album a {
   margin: auto;
-}
-
-.album img {
-  width: 500px;
-  margin-top: 10px;
 }
 
 .album img {
@@ -362,6 +326,24 @@ button a:hover {
 .album img:hover {
   -webkit-transform:scale(1.02);
   transform:scale(1.02);
+}
+
+.album-column-1 img {
+  width: 500px;
+  padding: 5px;
+}
+
+.album-column-3 {
+    box-sizing: border-box;
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.album-column-3 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 
@@ -400,8 +382,9 @@ button a:hover {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 6px 12px 6px 20px;
+  padding: 4px 12px 4px 20px;
   text-decoration: none;
+  font-size: 18px;
   display: block;
   text-align: left;
 }
@@ -415,4 +398,23 @@ button a:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+
+/* ----- LEGO - General changes ----- */
+
+.content-lego {
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 950px;
+  height: fit-content;
+  background-color: #EAEFEF;
+  border: 5px solid #7F8CAA;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0 #333446;
+  line-height: 140%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
 }
