@@ -1,12 +1,12 @@
 @font-face {
     font-family: "dosis";
-    src: url(/fonts/Dosis-VariableFont_wght.ttf);
+    src: url(fonts/Dosis-VariableFont_wght.ttf);
 }
 
 
 @font-face {
     font-family: "firacode";
-    src: url(/fonts/FiraCode-VariableFont_wght.ttf);
+    src: url(fonts/FiraCode-VariableFont_wght.ttf);
 }
 
 
@@ -190,7 +190,7 @@ figcaption {
 
 h2{
   margin-top: 20px;
-  font-family: firacode;  
+  font-family: dosis;  
 }
 
 
