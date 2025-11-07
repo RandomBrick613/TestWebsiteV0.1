@@ -121,6 +121,7 @@ nav li a {
   align-items: center;
   padding: 5px 20px 5px 20px;
   margin: auto;
+  text-decoration: none;
 }
 
 
@@ -188,6 +189,7 @@ figcaption {
 }
 
 
+
 h2{
   margin-top: 20px;
   font-family: dosis;  
@@ -196,7 +198,7 @@ h2{
 
 h3{
   margin-top: 20px;
-  font-family: dosis;  
+  font-family: firacode;
 }
 
 
@@ -323,14 +325,9 @@ button a:hover {
   transition:transform 0.25s ease;
 }
 
-.album img:hover {
-  -webkit-transform:scale(1.02);
-  transform:scale(1.02);
-}
-
-.album-column-1 img {
-  width: 500px;
-  padding: 5px;
+.album-column-3 img:hover {
+  -webkit-transform:scale(1.01);
+  transform:scale(1.01);
 }
 
 .album-column-3 {
