@@ -326,8 +326,8 @@ button a:hover {
 }
 
 .album-column-3 img:hover {
-  -webkit-transform:scale(1.01);
-  transform:scale(1.01);
+  -webkit-transform:scale(1.03);
+  transform:scale(1.03);
 }
 
 .album-column-3 {
