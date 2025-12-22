@@ -426,7 +426,7 @@ button a:hover {
   margin-top: 10px;
   max-width: 950px;
   height: fit-content;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: 3px solid #7F8CAA;
   border-radius: 15px;
   box-shadow: 3px 5px 0 #333446;
