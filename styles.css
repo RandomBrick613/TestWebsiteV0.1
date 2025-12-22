@@ -192,13 +192,13 @@ figcaption {
 
 h2{
   margin-top: 20px;
-  font-family: dosis;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 
 
 h3{
   margin-top: 20px;
-  font-family: firacode;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 
 
@@ -411,6 +411,25 @@ button a:hover {
   border: 5px solid #7F8CAA;
   border-radius: 15px;
   box-shadow: 5px 5px 0 #333446;
+  line-height: 140%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+
+
+/* ----- PHOTOGRAPHY - General changes ----- */
+
+.content-photography {
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 950px;
+  height: fit-content;
+  background-color: white;
+  border: 3px solid #7F8CAA;
+  border-radius: 15px;
+  box-shadow: 3px 5px 0 #333446;
   line-height: 140%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
