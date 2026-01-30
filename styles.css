@@ -416,6 +416,10 @@ button a:hover {
   font-size: 16px;
 }
 
+.content-lego figure {
+  margin: 0px;
+}
+
 
 
 /* ----- PHOTOGRAPHY - General changes ----- */
