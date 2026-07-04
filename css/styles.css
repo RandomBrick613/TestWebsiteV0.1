@@ -54,7 +54,7 @@ footer {
   padding: 20px 0 20px 0;
   margin: 10px 5px;
   width: 750px;
-  background-color: #efefef;
+  background-color: #eeeeee;
   border-radius: 15px;
   line-height: 140%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -282,7 +282,7 @@ button a:hover {
   margin: 10px 5px;
   width: 200px;
   height: fit-content;
-  background-color: #efefef;
+  background-color: #eeeeee;
   border-radius: 15px;
   line-height: 140%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
