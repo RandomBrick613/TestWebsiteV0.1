@@ -6,7 +6,8 @@
         <meta name="author" content="Brick">
         <meta name="description" content="Brick's Website">
         <link rel="icon" href="img/brick.png">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/header.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Brick's Website</title>
     </head>
@@ -14,49 +15,60 @@
     <body>
         <header>
             <div class="header-content">
-                <div class="header-image">
-                    <a href="index.html"><img src="img/brick.png" alt="brick" style="width: 50px"></a>
-                </div>
-                <div class="header-title">
-                    <h1 style="margin: auto">Brick's Writing Dump</h1>
+                <div class="top-header-content">
+                    <a href="index.html">
+                        <img src="img/brick.png" alt="Brick logo" class="logo">
+                    </a>
+
+                    <h1>Brick's Writing Dump</h1>
                 </div>
 
-                <div class="header-nav">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="music.html">Music</a></li>
-                            <li><a href="photography.html">Photography</a></li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Other &#9662;</button>
-                                    <div class="dropdown-content">
-                                        <a href="other/lego/lego.html">LEGO Archive</a>
-                                    </div>
-                                </div> 
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Other ▼</button>
+                            <div class="dropdown-content">
+                                <a href="other/lego/lego.html">LEGO Archive</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
-        </header> 
-
+        </header>
+        
         <main>
+            <div class="sidebar">
+                <h3 class="sidebar-title">Sidebar time!</h3>
+
+                <p>If only there was anything to place here...</p>
+                <p>Have a silly cat instead!</p>
+
+                <img src="img/milly.png" alt="" width="200px">
+            </div>
+            
             <div class="content">
                 <h2 class="center-title">Welcome!</h2>
 
                 <div class="padded-box">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, itaque, accusamus ex eos voluptate assumenda commodi minima ipsam libero laudantium provident, similique quod. Minus magni earum corrupti facere obcaecati laboriosam reiciendis necessitatibus est asperiores deleniti repudiandae sit illo velit, ut, vero labore, atque tenetur! Cum quidem nulla veniam eius libero quibusdam doloremque assumenda ullam perspiciatis saepe labore voluptas perferendis quaerat eaque ipsum animi maxime nesciunt neque, beatae architecto! Similique fuga iste beatae exercitationem sequi, quasi incidunt sed labore in unde, cumque libero aperiam ut placeat rerum obcaecati tempora, error nulla reiciendis. Officia repellat eaque, eius corporis quod dolorem sunt consequuntur eos esse omnis voluptatum soluta unde laboriosam inventore dolore nisi consectetur dolorum corrupti maxime nobis, doloribus iste reprehenderit minus aliquam. Voluptatibus pariatur suscipit corporis ut quidem, non, quibusdam tempora expedita possimus, quaerat officiis? Eius accusamus voluptates nemo a enim excepturi vero aut, sequi odit obcaecati harum. Corporis voluptas aperiam atque illo. Quo dolore aut aperiam ratione aliquam quod porro, atque, quos consectetur hic blanditiis iusto! Quod nostrum iusto, qui maiores similique accusantium ullam alias, nesciunt accusamus quidem quas quaerat labore libero quasi nisi eaque quisquam, sequi laborum sunt voluptatibus omnis neque ipsa odit. Saepe, nisi dolorem? Ratione dicta sequi laboriosam.</p>
+
+                    <p>Everything about this website is currently under construction (as it likely always will be). Still, enjoy!</p>
+                        
+                    <p>I promise to write a proper welcome page some day...</p>
                 </div>
 
+                
+                
             </div>
         </main>
 
-        <footer class="fixed-footer">
+        <footer>
             <p>2026 © cooked up by brick</p>
         </footer>
-
     </body>
 </html>

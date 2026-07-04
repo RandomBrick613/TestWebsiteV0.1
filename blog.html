@@ -6,7 +6,8 @@
         <meta name="author" content="Brick">
         <meta name="description" content="Brick's Website">
         <link rel="icon" href="img/brick.png">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/header.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Brick's Website</title>
     </head>
@@ -14,36 +15,43 @@
     <body>
         <header>
             <div class="header-content">
-                <div class="header-image">
-                    <a href="index.html"><img src="img/brick.png" alt="brick" style="width: 50px"></a>
-                </div>
-                <div class="header-title">
-                    <h1 style="margin: auto">Brick's Writing Dump</h1>
+                <div class="top-header-content">
+                    <a href="index.html">
+                        <img src="img/brick.png" alt="Brick logo" class="logo">
+                    </a>
+
+                    <h1>Brick's Writing Dump</h1>
                 </div>
 
-                <div class="header-nav">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="music.html">Music</a></li>
-                            <li><a href="photography.html">Photography</a></li>
-                            <li>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Other &#9662;</button>
-                                    <div class="dropdown-content">
-                                        <a href="other/lego/lego.html">LEGO Archive</a>
-                                    </div>
-                                </div> 
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li class="dropdown">
+                            <button class="dropbtn">Other ▼</button>
+                            <div class="dropdown-content">
+                                <a href="other/lego/lego.html">LEGO Archive</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
             </div>
         </header>
-
+        
         <main>
+            <div class="sidebar">
+                <h3 class="sidebar-title">Sidebar time!</h3>
+
+                <p>If only there was anything to place here...</p>
+                <p>Have a silly cat instead!</p>
+
+                <img src="img/milly.png" alt="" width="200px">
+            </div>
+            
             <div class="content">
                 <h2 class="center-title">Blog</h2>
 
@@ -58,10 +66,9 @@
                 
             </div>
         </main>
-        
-        <footer class="fixed-footer">
+
+        <footer>
             <p>2026 © cooked up by brick</p>
         </footer>
-
     </body>
 </html>

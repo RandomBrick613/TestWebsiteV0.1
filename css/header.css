@@ -1,0 +1,114 @@
+/* ----- Header and navigation ----- */
+
+header {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+  display: flex;
+  padding: 20px 0 20px 0;
+}
+
+
+/* ----- Header content ----- */
+
+.header-content{
+  display: inline;
+  margin: auto;
+}
+
+.top-header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content img{
+    width: 50px;
+    margin-right: 25px;
+}
+
+.header-content h1{
+  font-family: consolas;
+  color: white;
+}
+
+
+/* ----- Navbar ----- */
+
+nav {
+  margin: -15px 0 -15px 0;
+  font-family: consolas;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 5px 20px 5px 20px;
+  margin: auto;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #222222;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/* ----- Dropdown ----- */
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 16px 20px 16px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  line-height: 18px;
+}
+
+.dropdown .dropbtn:hover {
+  background-color: #222222;
+  color: white;
+  border-radius: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EAEFEF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 4px 12px 4px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
