@@ -69,16 +69,15 @@ nav li a:hover {
 /* ----- Dropdown ----- */
 
 .dropdown .dropbtn {
-  font-size: 20px;  
+  font-size: 18px;  
   border: none;
   outline: none;
   color: white;
-  padding: 16px 20px 16px 20px;
+  padding: 12px 20px 12px 20px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  line-height: 18px;
-  
+  line-height: 18px;  
 }
 
 .dropdown .dropbtn:hover {

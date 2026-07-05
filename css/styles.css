@@ -8,7 +8,6 @@
 
 /* ----- Main elements ----- */
 
-
 html {
     overflow-y: scroll;
 }
@@ -28,12 +27,12 @@ main{
 footer {
   background-color: black;
   width: 100%;
-  height: 50px;
+  height: fit-content;
   padding: 10px 0 10px 0;
   text-align: center;
   line-height: 18px;
   color: white;
-  font-family: tahoma;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
 }
 
@@ -59,6 +58,15 @@ footer {
   line-height: 140%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
+}
+
+.content-lego figure {
+  margin: 20px auto;
+}
+
+.content-lego h1 {
+  font-size: 25px;
+  line-height: 100%;
 }
 
 .paragraph {
@@ -97,6 +105,10 @@ figcaption {
 }
 
 
+h1{
+  margin-top: 20px;
+  font-family: firacode;
+}
 
 h2{
   margin-top: 20px;
@@ -109,6 +121,10 @@ h3{
   margin-top: 20px;
   font-family: firacode;
   font-size: 16px;
+}
+
+.subtitle{
+  color: #666666;
 }
 
 
@@ -140,7 +156,7 @@ h3{
 
 
 ul {
-  line-height: 200%;
+  line-height: 150%;
 }
 
 
@@ -150,6 +166,7 @@ ul {
 
 a {
   text-decoration: none;
+  font-weight: normal;
   color: #0000EE;
 }
 
@@ -161,7 +178,8 @@ a:hover {
 
 
 button {
-  padding: 8px;
+  padding: 1px;
+  height: 38px;
 }
 
 
@@ -172,6 +190,7 @@ button:hover {
 
 button a {
   color: black;
+  
 }
 
 
@@ -199,86 +218,24 @@ button a:hover {
 
 /* ----- EVERYTHING RELATED TO PHOTO ALBUMS ----- */
 
-.album {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+.photo-album{
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  width: 750px;
 }
 
-.album a {
-  margin: auto;
+.photo-album img{
+  width: 500px;
+  margin: 5px;
+  border: 2px solid white;
 }
-
-.album img {
-  transition:transform 0.25s ease;
-}
-
-.album-column-3 img:hover {
-  -webkit-transform:scale(1.03);
-  transform:scale(1.03);
-}
-
-.album-column-3 {
-    box-sizing: border-box;
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 4px;
-}
-
-.album-column-3 img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
-
-
-
-/* ----- LEGO - General changes ----- */
-
-.content-lego {
-  padding-bottom: 20px;
-  margin: auto;
-  margin-top: 10px;
-  max-width: 950px;
-  height: fit-content;
-  background-color: #EAEFEF;
-  border: 5px solid #7F8CAA;
-  border-radius: 15px;
-  box-shadow: 5px 5px 0 #333446;
-  line-height: 140%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-}
-
-.content-lego figure {
-  margin: 0px;
-}
-
-
-
-/* ----- PHOTOGRAPHY - General changes ----- */
-
-.content-photography {
-  padding-bottom: 20px;
-  margin: auto;
-  margin-top: 10px;
-  max-width: 950px;
-  height: fit-content;
-  background-color: rgb(255, 255, 255);
-  border: 3px solid #7F8CAA;
-  border-radius: 15px;
-  box-shadow: 3px 5px 0 #333446;
-  line-height: 140%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-}
-
 
 /* SIDEBAR! */
 
 
 .sidebar {
-  padding: 15px;
+  padding: 20px;
   margin: 10px 5px;
   width: 200px;
   height: fit-content;
@@ -292,12 +249,10 @@ button a:hover {
 .sidebar-title {
   width: 160px;
   margin: auto;
-  margin-top: 10px;
   padding: 8px;
   text-align: center;
-  background-color: #92acd4;
+  background-color: #9294fa;
   border-radius: 8px;
   box-shadow: 5px 5px 0 black;
   font-family: firacode;
 }
-
