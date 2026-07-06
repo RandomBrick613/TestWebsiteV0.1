@@ -89,13 +89,14 @@ figcaption {
   text-align: center;
   display: block;
   margin: 10px auto;
-  width: 750px;
+  width: 600px;
 }
 
 .photo-album img{
-  width: 500px;
+  max-width: 500px;
+  max-height: 500px;
   margin: 5px;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .content-lego img{
