@@ -57,7 +57,7 @@ footer {
 /* ---------------------------------- */
 
 .content {
-  padding: 25px 35px;
+  padding: 30px 45px;
   margin: 10px 5px;
   width: 750px;
   background-color: #eeeeee;
@@ -101,6 +101,8 @@ figcaption {
 
 .photos-lego {
   display: flex;
+  margin: auto;
+  width: fit-content;
 }
 
 .photos-lego img {
@@ -192,6 +194,10 @@ button a:hover {
 
 ul {
   line-height: 150%;
+}
+
+.content-lego{
+    margin: auto;
 }
 
 .content-lego figure {
