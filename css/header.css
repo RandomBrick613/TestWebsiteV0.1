@@ -3,8 +3,6 @@
 header {
   background-color: rgb(0, 0, 0);
   width: 100%;
-  height: fit-content;
-  margin: auto;
   display: flex;
   padding: 20px 0 20px 0;
 }
@@ -30,6 +28,7 @@ header {
 
 .header-content h1{
   font-family: firacode;
+  font-size: 30px;
   color: white;
 }
 
@@ -60,9 +59,8 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #222222;
+  background-color: #242424;
   color: white;
-  border-radius: 10px;
 }
 
 
@@ -73,32 +71,31 @@ nav li a:hover {
   border: none;
   outline: none;
   color: white;
-  padding: 12px 20px 12px 20px;
+  padding: 5px 20px 5px 20px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
-  line-height: 18px;  
+  margin: auto;
+
 }
 
 .dropdown .dropbtn:hover {
   background-color: #222222;
   color: white;
-  border-radius: 10px;
   cursor: pointer;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #EAEFEF;
+  background-color: #ffffff;
   min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
 }
 
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 4px 12px 4px 20px;
+  padding: 5px 20px 5px 20px;
   text-decoration: none;
   font-size: 16px;
   display: block;
@@ -110,4 +107,6 @@ nav li a:hover {
   background-color: #ddd;
 }
 
-.show {display: block;}
+.show {
+  display: block;
+}
