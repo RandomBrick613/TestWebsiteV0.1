@@ -99,6 +99,18 @@ figcaption {
   border: 1px solid white;
 }
 
+.photo-album figure{
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.photo-album figcaption{
+  color: white;
+  width: fit-content;
+  padding: 0px 20px;
+  margin: auto;
+}
+
 .content-lego img{
   display: flex;
   margin: auto;
