@@ -57,11 +57,15 @@ footer {
 /* ---------------------------------- */
 
 .content {
-  padding: 30px 45px;
-  margin: 10px 5px;
+  padding: 30px 35px;
+  margin: 10px 5px;   
   width: 750px;
   background-color: #eeeeee;
   border-radius: 15px;
+}
+
+.padded-box {
+  margin: 40px 25px 20px 25px;
 }
 
 .paragraph {
@@ -194,10 +198,6 @@ button a:hover {
 
 ul {
   line-height: 150%;
-}
-
-.content-lego{
-    margin: auto;
 }
 
 .content-lego figure {
